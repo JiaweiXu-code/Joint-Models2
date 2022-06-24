@@ -78,36 +78,24 @@ OUTPUTS (from "data_gen.R" of simulated data):
    (11) double  - t.start    - start time of current follow-up for recurrent event
    
    (12) double  - gap        - gap time of recurrent event
-   
-   
+    
    
 [4] estimates.R -- Estimate the Bayesian type I error rate or power under different priors as well as the parameters based on joint models.
-
 
 
 ----------------------------------------- Folder MainResults --------------------------------------
 
 Description: This folder contains data generation and model fitting programs for results in Section 3. 
 
-RE_php.Rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model.
+RE_php.Rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model to produce Figures 2&3&4 and Tables 1&2.
 
-The ratios between sample size and event total used in the paper for data generation can be found below:
+The ratios between sample size and terminating event total used in the paper for data generation can be found below:
 
-Table1: Ratios (k) used for data generation in Section 3.
-
-| α(first element in alpha) = 0.0 | γ (pinter) = {0.0,0.0,0.0,0.0} | γ (pinter) = {0.2,0.2,0.2,0.2} | γ (pinter) = {0.4,0.3,0.2,0.1} |
-| --- | --- | --- | --- |
-| β(beta) = -0.15 | 2.75 | 2.80 | 2.80 |
-| β(beta) = -0.30 | 2.55 | 2.70 | 2.70 |
-| β(beta) = -0.45 | 2.40 | 2.60 | 2.60 |
+| γ[2] | -0.1 | -0.15 | -0.2 | -0.3 | -0.4 | -0.45 | -0.5 | -0.6 | 0.02 | 0.04 | 0.06 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| ratio | 3.1 | 3.15 | 3.2 | 3.3 | 3.4 | 3.45 | 3.5 | 3.6 | 2.99 | 2.97 | 2.95 |
 
 Table2: Ratios (k) used for data generation in Figure 3.
-
-| α(first element in alpha) = -0.2 | γ (pinter) = {0.0,0.0,0.0,0.0} | γ (pinter) = {0.2,0.2,0.2,0.2} | γ (pinter) = {0.4,0.3,0.2,0.1} |
-| --- | --- | --- | --- |
-| β(beta) = -0.15 | 2.95 | 3.05 | 3.00 |
-| β(beta) = -0.30 | 2.75 | 2.90 | 2.90 |
-| β(beta) = -0.45 | 2.70 | 2.80 | 2.75 |
 
 
 ----------------------------------------- Folder Trajectory-Misspecification --------------------------------------
