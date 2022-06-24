@@ -87,15 +87,13 @@ OUTPUTS (from "data_gen.R" of simulated data):
 
 Description: This folder contains data generation and model fitting programs for results in Section 3. 
 
-RE_php.Rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model to produce Figures 2&3&4 and Tables 1&2.
+RE_php.rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model to produce Figures 2&3&4 and Tables 1&2.
 
 The ratios between sample size and terminating event total used in the paper for data generation can be found below:
 
 | γ[2] | -0.1 | -0.15 | -0.2 | -0.3 | -0.4 | -0.45 | -0.5 | -0.6 | 0.02 | 0.04 | 0.06 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | ratio | 3.1 | 3.15 | 3.2 | 3.3 | 3.4 | 3.45 | 3.5 | 3.6 | 2.99 | 2.97 | 2.95 |
-
-Table2: Ratios (k) used for data generation in Figure 3.
 
 
 ----------------------------------------- Folder Trajectory-Misspecification --------------------------------------
