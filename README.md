@@ -49,7 +49,7 @@ OUTPUTS: Seed, trial duration, sample size, event total
 
 
 
-[2] mean.R -- Compute the average trial duration, sample size and terminating event total based on the 1,000 simulations.
+[2] ssd_mean.R -- Compute the average trial duration, sample size and terminating event total based on the 1,000 simulations.
 
 [3] data_array.R -- Simulate the recurrent and terminating event data by calling the R program "data_gen.R" which performs a single simulation and fit the joint models to the corresponding dataset by calling R program "RE_php.R". The "data_gen.R" code requires the same inputs as for "ssd.R". 
 
