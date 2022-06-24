@@ -83,11 +83,11 @@ OUTPUTS (from "data_gen.R" of simulated data):
 [4] estimates.R -- Estimate the Bayesian type I error rate or power under different priors as well as the parameters based on joint models.
 
 
------------------------------------------ Folder MainResults --------------------------------------
+----------------------------------------- Folder Main&A&B --------------------------------------
 
-Description: This folder contains data generation and model fitting programs for results in Section 3. 
+Description: This folder contains data generation and model fitting programs for results in Section 3 as well as results in Appendices A&B. 
 
-RE_php.rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model to produce Figures 2&3&4 and Tables 1&2.
+RE_php.rcpp -- The Rcpp program called by "RE_php.R" to fit the joint model to produce Figures 2&3&4&S1 and Tables 1&S1.
 
 The ratios between sample size and terminating event total used in the paper for data generation can be found below:
 
@@ -96,9 +96,9 @@ The ratios between sample size and terminating event total used in the paper for
 | ratio | 3.1 | 3.15 | 3.2 | 3.3 | 3.4 | 3.45 | 3.5 | 3.6 | 2.99 | 2.97 | 2.95 |
 
 
------------------------------------------ Folder Trajectory-Misspecification --------------------------------------
+----------------------------------------- Folder Dirichlet --------------------------------------
 
-Description: This folder contains data generation and model fitting programs for results in Section 3.2. 
+Description: This folder contains data generation and model fitting programs for results in Section 4. 
 
 dataset-leveloff.R  -- Simulate data where the trajectory for treated group increases initially but levels off over time. A 6-component piecewise linear trajectory is assumed.
 
